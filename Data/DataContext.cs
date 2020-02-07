@@ -5,7 +5,7 @@ namespace core_api.Data
 {
     public class DataContext : DbContext
     {
-        public DataContext(DbContextOptions<DbContext> options) : base(options)
+        public DataContext(DbContextOptions<DataContext> options) : base(options)
         {
             //Em bancos SQL, as connection strings ficariam aqui
         }
